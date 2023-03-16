@@ -2,14 +2,14 @@ import telegram
 from binance.client import Client
 import time
 
-api_key = "mSZp7NPYBy0kq0Bs9CdmbNYmC3TqnAVQCYFqByzcZNZ93LL5mfP3La3Aw8VAevvP"
-api_secret = "PtTC9McSur1KfMo8Jn2GRHb9m0zkNIG9WQitXVCBd9MjqDeuMV00vEEhSDYVlZKi"
+api_key = "Enter Your Binance api_key"
+api_secret = "Enter your secret api_secret key"
 
-bot_token = "6090948283:AAGBoE-jzakrcKBtw49_pC7mJebm5OtwP5s"
+bot_token = "Enter your bot telegram token"
 
-telegram_group_id = "5204008772"
+telegram_group_id = "Your telegram bot group id"
 
-traders_to_follow = ["FxTrading-pro", "Degen-Ape-Trader", "VB1"]
+traders_to_follow = ["FxTrading-pro", "Degen-Ape-Trader", "VB1"] #<- The top traders you what to follow
 
 client = Client(api_key, api_secret)
 
