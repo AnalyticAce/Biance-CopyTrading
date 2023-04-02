@@ -9,7 +9,7 @@ bot_token = "Enter your bot telegram token"
 
 telegram_group_id = "Your telegram bot group id"
 
-traders_to_follow = ["FxTrading-pro", "Degen-Ape-Trader", "VB1"] #<- The top traders you what to follow
+traders_to_follow = ["FxTrading-pro", "Degen-Ape-Trader", "VB1"] #<- The top traders you want to follow
 
 client = Client(api_key, api_secret)
 
